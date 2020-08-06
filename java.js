@@ -47,7 +47,7 @@ $(document).keydown(function(){
 });
 
 
-$("body").click(function(){
+$("h1").click(function(){
 
   if (!oneTime)
   {
@@ -121,7 +121,7 @@ function checkAnswer(currLevel)
   }, 200);
 
 
-  $("h1").text("Game Over, Click on screen To Restart")
+  $("h1").text("Game Over, Click Here To Restart")
 
   startAgain();
 
