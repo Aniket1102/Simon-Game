@@ -47,6 +47,20 @@ $(document).keydown(function(){
 });
 
 
+$("body").click(function(){
+
+  if (!oneTime)
+  {
+    $("h1").text("level "+ level);
+    nextSequence();
+
+  oneTime=true;
+}
+
+
+
+});
+
 
 
 $(".btn").click(function() {
