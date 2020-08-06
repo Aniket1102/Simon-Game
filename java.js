@@ -121,7 +121,7 @@ function checkAnswer(currLevel)
   }, 200);
 
 
-  $("h1").text("Game Over, Press Any Key To Restart")
+  $("h1").text("Game Over, Click on screen To Restart")
 
   startAgain();
 
